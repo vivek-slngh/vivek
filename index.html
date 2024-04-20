@@ -1,0 +1,423 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+</head>
+
+<style>
+  /* CSS to style the body element */
+  body {
+      background-color: #f0f0f0; /* Set initial background color */
+      transition: background-color 0.5s ease; /* Add a smooth transition effect */
+      text-align: center; /* Center align content */
+      padding-top: 50px; /* Add some space at the top */
+  }
+
+  /* CSS to style the button */
+  button {
+      background-color: transparent; /* Set button background color to transparent */
+      border: 2px solid black; /* Add a black border */
+      padding: 10px 20px; /* Add padding */
+      font-size: 16px; /* Set font size */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      
+  }
+
+  /* Change button style on hover */
+  button:hover {
+      background-color: black; /* Change background color on hover */
+      color: white; /* Change text color on hover */
+  }
+</style>
+
+
+<body>
+    
+    <input type="color" id="colorPicker">
+    <button onclick="resetColor()">Reset to White</button>
+
+    <script>
+        // Function to apply the selected color
+        function applyColor() {
+            var color = document.getElementById("colorPicker").value;
+            document.body.style.backgroundColor = color;
+        }
+
+        // Function to reset the background color to white
+        function resetColor() {
+            document.body.style.backgroundColor = "white";
+        }
+
+        // Event listener for input changes on color picker
+        document.getElementById("colorPicker").addEventListener("input", function() {
+            applyColor();
+        });
+    </script>
+</body>
+</html>
+
+
+
+<html>
+	<head>
+		<title>Editor by HTML5</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+	<style>
+        h1, h2, h3, h4, h6 {
+            font-family: Helvetica, Arial, sans-serif; /* Set the font family to Helvetica, with Arial and generic sans-serif as fallbacks */
+            color: black; /* Set the text color to black */
+			margin-bottom: 5px;
+		}
+		 /* CSS to style the specific h3 with the class "special-h3" */
+		 .special-h2 {
+			font-family: Helvetica, Arial, sans-serif;
+            
+			text-align: left;
+        }
+		 .special-h3 {
+			font-family: Helvetica, Arial, sans-serif;
+            color: rgb(97, 97, 173); /* Set the text color to red */
+            font-weight: bold; /* Make the text bold */
+			text-align: left;
+        }	
+        
+   
+	h5 {
+		font-family: Helvetica, Arial, sans-serif; /* Set the font family to Helvetica, with Arial and generic sans-serif as fallbacks */
+		color: rgb(70, 68, 68); /* Set the text color to black */
+		margin-bottom: 5px;
+		font-style: italic;
+	}
+
+	/* CSS to style list items */
+	ul {
+           
+            padding-left: 20px; /* Add space for the bullet points */
+        }
+	li {
+		font-family: Helvetica, Arial, sans-serif; /* Set the font family */
+		color: rgb(71, 71, 73); /* Set the text color */
+		font-size: 20px; /* Set the font size */
+		margin-bottom: 5px; 
+		text-align: left;
+		 /* Add left padding for bullets */
+    
+	}
+
+	/* CSS to style list items */
+	
+	p {
+		font-family: Helvetica, Arial, sans-serif; /* Set the font family */
+		color: rgb(233, 69, 28); /* Set the text color */
+		font-size: 22px; /* Set the font size */
+		
+		 /* Add left padding for bullets */
+    
+	}
+</style>
+
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<h2 class="special-h2">Vivek Singh</strong></h2>
+									<ul class="icons">
+										
+										<li><a href="https://www.youtube.com/@sunyamekam" class="icon brands fa-youtube" target="_blank"><span class="label">YouTube</span></a></li>
+										<li><a href="https://www.linkedin.com/in/vivek-singh-295387133" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+										<li><a class="btn content-download button-main button-scheme" href="pdf/resume.pdf" download="resume_vivek_2023" >Download CV</a></li>
+										
+									</ul>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<style>
+											.big-font {
+												font-family: Helvetica, Arial, sans-serif;
+												font-size: 22px;
+												color:rgb(71, 70, 70); /* Set the font size to 24 pixels */
+											}
+										</style>
+										<header>
+											<h2>Hi, I’m Hardcore Engineer,<br> Data Scientist, Interdisciplinary Roboticist
+											</h2><br>
+											<p class = 'big-font'><strong>About,</strong> </p>
+										</header>
+										<p class = 'big-font'>Hey There! My name is VIvek Singh and I’m a senior Data Scientist at STL Tech, working on transforming business requirements into insightful data driven solutions. My work interests cross the boundaries of large computation and simulation, machine learning for the data-driven discovery and control of complex dynamical systems, Computer Vision, Reinforcement Learning, Large Language Models, MLOps. I got interested in Machine Learning, Computer Vision, Signal Processing, Control and Robotics during my bachelor and I am also pursuing a Micromaster in Statistics and Data Science from MIT’x. </p>
+										
+									</div>
+
+									
+
+									<span class="image object" style="width: 400px; height: auto;">
+										
+										<img src="images/profile_pic.jpeg" alt="" />
+										
+										<p class = 'big-font'><strong>Email ID: </strong>vivekkgp97@gmail.com <br> <a href="mailto:vivekkgp97@gmail.com">Send email</a></p>
+										
+									</span>
+								
+								</section>
+
+							<!-- Section -->
+								
+
+									<header class="major">
+										<h2>Education</h2>
+									</header>
+										<h3>Massachusetts Institute of Technology</h3>
+										<h4>Micromaster - Statistics and Data Science</h4>
+										<h5>Feb'23 - Present</h5>
+                                        <br>
+										<h3>Indian Institutes of Technology</h3>
+										<h4>Bachelor of Technology - Mechanical Engineering</h4>
+										<h5>Jul'19 - Apr'19</h5>
+                                         
+									
+							        <br>
+									<header class="major">
+										<h2>Relevant Coursework</h2>
+									</header>
+									
+										<style>
+											.section {
+												width: 33.33%; /* Each section takes up 1/3 of the width */
+												float: left; /* Float the sections left to create the vertical layout */
+												height: 52vh; /* Each section takes up the full height of the viewport */
+												 /* Include padding and border in the element's total width and height */
+												padding: 2px; /* Add some padding for spacing */
+												 /* Add a border for visual separation */
+												 /* Add a shadow for visual depth */
+											}
+										</style>
+										
+											
+											<div class="section">
+												<h3 class="special-h3">Computer Science</h3>
+												<ul>
+													<li>CS10003: Advanced Digital Image Processing and Computer Vision</li>
+													<li>CS60052: Programming and Data Structures</li>
+													<li>MITx 6.431: Probability</li>
+													<li>MITx 6.431: Reinforcement Learning by David Silver</li>
+													<li>MITx 6.419: Statistical Modeling and Computation</li>
+													<li>MITx 6.86: Machine Learning with Python</li>
+													<li>MITx 18.6501: Fundamental of Statistics</li>
+													<li>Harvardx CS50: Introduction to AI</li>
+													<li>UCx STA01: Statistical Inferece and Modelling</li>
+													<li>Deep Learning Specialization by Andrew NG</li>
+													<li>Funamental of Reinforcement Learning</li>
+													<li>Google Cloud Fundamental</li>
+													<li>Docker with Kubernetes</li>
+												  </ul> 
+												
+											</div>
+										
+										
+											<div class="section">
+												<h3 class="special-h3">Control and Robotics</h3>
+												<ul>
+													<li>ME60416: Mechanism amd Robot Kinematics</li>
+													<li>EE60012: Optimal Control</li>
+													<li>EC31008: Digital Signal Processing</li>
+													<li>MF41601: Soft Computing</li>
+													<li>ME40601: System and Control</li>
+													<li>ME29202: Mechatronics Laboratory</li>
+													<li>EC21201: Basic Electronics</li>
+													
+												  </ul> 
+												
+											</div>
+										
+											
+											<div class="section">
+												<h3 class="special-h3">Mechanical Engineering</h3>
+												<ul>
+													<li>ME21203,5: Mechanics, Dynamics</li>
+													<li>ME21201,2: Thermo-Fluid Engineering</li>
+													<li>ME30005: Heat Transfer</li>
+													<li>ME31203: Kinematics and Kinetics of Machines</li>
+													<li>MT30001: Materials engineering</li>
+													
+													</ul>
+													 
+													
+													</div>
+
+										
+								</section>
+
+							<!-- Section -->
+
+							
+
+								<section>
+									<header class="major">
+										<h2>Work/Projects</h2>
+									
+										<h3>STL Tech</h3>
+									</header>
+										<a href="https://stl.tech/stl-stories/from-sand-to-optical-fibre-the-story-of-digital-connectivity/" target="_blank"><p>From sand to optical fibre – The story of digital connectivity</p></a>
+									<br></br>
+							
+									
+									<div class="posts">
+										<article>
+											<a href="#" class="image"><img src="images/draw_tower_mit.png" alt="" /></a>
+										
+											<details>
+												<summary><h4>Data Driven Modeling of system dynamics and control design - MIT’s Device Realization Lab, Director MIT Nano, Prof. Brian Anthony</h4></summary>
+												<li>Collaborated with Prof. Brian Anthony at MIT, developed a model of the complex optical fiber drawing process using a deep LSTM Neural Network and modeled the existing controllers using statistical time-series system identification methods.</li><li>Developed closed-loop simulation as a design tool for controller improvements.</li><li>Fine-tuned the controller gains, resulting in the fiber diameter decreasing from 125 ± 0.7 µm to 125 ± 0.3 µm (with annual savings of approximately $3 million).</li><li>Developed a POC in collaboration with MIT on Model free tracking control of an optical fiber drawing process using Deep Reinforcement Learning.</li>
+											</details>
+											
+											
+											
+										</article>
+										
+										<article>
+											<a href="#" class="image"><img src="images/glass_making_process.png" alt="" /></a>
+										
+											<details>
+												<summary><h4>Optimization of  glass making process - MIT’s Device Realization Lab</h4></summary>
+												<li>Successfully conducted in depth analysis of mapping IoT data to quality test parameters. This involved techniques like noise reduction, dimensionality reduction, clustering to visualize the patterns in IoT data.</li><li>Developed and deployed advanced models to map input parameters to quality outcomes, optimizing business processes.</li>
+											</details>
+											
+											
+											
+										</article>
+										
+										<article>
+											<a href="#" class="image"><img src="images/coating.png" alt="" /></a>
+											<details>
+												<summary><h4>Data Driven Adaptive Control of Fibre Coating Process</h4></summary>
+												<li>RCA was conducted in python to find process parameters contributing to the coating defects.</li><li>Processed large amounts of IoT data, applied noise reduction, tapering and other pre-processing techniques.</li><li>Learned the relation between process parameters using transfer function model (system identification methods in control theory) in Matlab and modified the lookup table. Reduced the coating scrap by 25%</li>
+											</details>
+											
+											
+											
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/defect_detection_system.png" alt="" /></a>
+											<details>
+												<summary><h4>Defect Detection System using Computer Vision </h4></summary>
+												<li>Designed and developed a Computer Vision platform (Edge Detection) in Google Cloud to improve the Mfg. Process quality and productivity.</li><li>It involved deploying a python job on Google App Engine that can fetch the images from GCS Bucket and apply edge detection algorithms and save geometrical and spatial information of edges in the BigQuery table.</li><li>Saved approx 100 Man hours/month.</li>
+											</details>
+											
+											
+											
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/bend_insensitive_fiber.png" alt="" /></a>
+											<details>
+												<summary><h4>Deployed tree based model for scrap reduction</h4></summary>
+												<li>Deployed end to end Bend Insensitive Fiber Scrap Reduction ML model, starting from data collection from different data sources to model deployment to Google Cloud using App Engine and managing data pipelines with CronJob. Impact was an annual savings of $1M.</li><li>Wrote a python script to extract machine analytical information from the 4 different data sources from Big query and created and deployed a dashboard to GCP using App Engine for the better monitoring of the business process.</li>
+											</details>
+											
+										
+										</article>
+										
+									</div>
+
+									<header class="major">
+		
+										<h2>Internships/Projects</h2>
+									</header>
+									<div class="posts">
+										<article>
+											<a href="#" class="image"><img src="images/octocopter.png" alt="" /></a>
+										
+											<details>
+												<summary><h3>NeoAero, Controller Designer, VTOL autonomous drones for last mile logistics</h3>
+											<h4>Simulation and position control of VTOL drone </h4>
+											<h5>Remote, Apr'19 - Jun'19</h5></summary>
+											<li>Designed position control for Food delivery quadcopter using PID, LQR and state-feedback in Matlab & Simulink/Simscape-multibody.</li><li>Linearized the models about the operating point and generated the State Space model and tuned the PID.</li><li>Simulated the model with varying trajectories.</li></p>
+											</details>
+											
+										</article>
+										
+										<article>
+											<a href="#" class="image"><img src="images/ft.png" alt="" /></a>
+											<a class="btn content-download button-main button-scheme" href="pdf/visual_servoing.pdf" download="vivek_project" >Internship</a>
+											<details>
+												<summary><h3>Taiwan Tech, Taipei, Distinguished Prof. Chyi-Yeu Jerry Lin</h3>
+											<h4>Control and synchronization of motor driven 7 bar mechanism</h4>
+											<h5>Taiwan, Taipei - Apr'18 - Aug'18</h5></summary>
+											<li>Implemented PID algorithm for motor driven mechanism that can mimic the motion of jogger face on treadmill.</li><li>Taking the feedback of the jogger face from the camera sensor with serial communication, treated this as a setpoint. Fetched response from Faulhaber motor driver,  feed this setpoint and response difference to tuned PID to get optimal voltage required to drive the motor (7 Bar Mechanism is driven by this motor and Jogger can attach his/her iPad or tablet to it).</li>
+										 	</details>
+											
+										</article>
+
+										
+
+										<article>
+											<a href="#" class="image"><img src="images/btech_thesis.png" alt="" /></a>
+											<a class="btn content-download button-main button-scheme" href="pdf/endsem_btp.pdf" download="btech_thesis" >BTech Thesis</a>
+											<details><summary>
+										    <h3>B.Tech Thesis,  Prof. C.S. Kumar</h3>
+											<h4>Kinematics analysis on Bionic Fish Tail System Based on Linear Hypocycloid</h4>
+											<h5>IIT Kharagpur, 2019</h5></summary>
+											<li>Implemented PID algorithm for motor driven mechanism that can mimic the motion of jogger face on treadmill.</li><li>Taking the feedback of the jogger face from the camera sensor with serial communication, treated this as a setpoint. Fetched response from Faulhaber motor driver,  feed this setpoint and response difference to tuned PID to get optimal voltage required to drive the motor (7 Bar Mechanism is driven by this motor and Jogger can attach his/her iPad or tablet to it).</li>
+											</details>
+											
+										</article>
+										
+										
+
+										<article>
+											<video width="320" height="240" controls>
+												<source src="videos/stair_climbing.mp4" type="video/mp4">
+												Your browser does not support the video tag.
+											  </video>
+											<a href="#" class="video"><source src="videos/stair_climbing.mp4" type = "video/mp4" alt="" /></a>
+											<details><summary>
+										    <h3>SKALA: Stair Climbing Kinetic Augmented Levitating Assistor</h3>
+											<h4>Vision Based Navigation</h4>
+											<h5>IIT Kharagpur, Nov'16 - Apr'17</h5></summary>
+											<li>I focused on developing computer vision-based target tracking for navigation. Our approach combined elements from existing products, utilizing Kanade-Lucas tracking of Shi Tomasi corners for autonomous functionality.</li><li>Ou team were rewarded with a gold medal at the hardware modelling event during the technology general championship for this effort.</li>
+										 	</details>
+										</article>
+
+										<article>
+											<a href="#" class="image"><img src="images/attendence_system.png" alt="" /></a>
+											<details>
+										    <summary><h3>Automatic Attendence System using image processing and computer vision</h3>
+											<h4>Face Detection and Recognition</h4>
+											<h5>IIT Kharagpur, Feb'18 - Apr'18</h5></summary>
+											<li>Implemented OpenCV for accurate face detection and utilized a pre-trained FaceNet model for facial recognition.</li><li>Managed a database to store student information alongside facial features for seamless identification.</li>
+											</details>
+											
+										</article>
+										
+										
+										
+									</div>
+                                 </section>
+  
+								
+								
+						</div>
+					</div>
+
+
+				
